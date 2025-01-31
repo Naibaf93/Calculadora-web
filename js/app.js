@@ -57,6 +57,20 @@ function aleatorio() {
     mostrarResultado(Math.floor(Math.random() * (maximo -  minimo) + minimo));
 }
 
-function redondeo(params) {
-    
+function redondeo() {
+    let resultado = +document.getElementById("resultado").value;
+
+    mostrarResultado(Math.round(resultado));
+}
+
+function piso() {
+    let resultado = +document.getElementById("resultado").value;
+
+    mostrarResultado(Math.floor(resultado));
+}
+
+function techo() {
+    let resultado = +document.getElementById("resultado").value;
+
+    mostrarResultado(Math.ceil(resultado));
 }
