@@ -14,11 +14,12 @@ button{
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 5px;
+    border-radius: 8px;
 }
 
 .doble button{
     height: 35px;
-    width: 150px;
+    width: 155px;
     font-size: 1rem;
     font-weight: bold;
 }
